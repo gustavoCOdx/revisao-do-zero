@@ -5,8 +5,7 @@
 }
 
 body {
-   background-image: url(imagens/pc-gamer.jpg);
-   
+    background-color: #ef7c00;
 }
 
 html{
@@ -43,25 +42,19 @@ html{
 
 .menu a {
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-size: 18px;
-}
-
-.menu a.link-ativo {
-    color: white;
     font-weight: bold;
 }
 
+.menu a.link-ativo {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    box-shadow: #007bff;
 
-
-.seta {
-    padding-left: 10px;
-    position: absolute;
-    width: 14px;
-    height: 0px;
-    left: 1665px;
-    top: 29px;
 }
+
+
 
 .banner01-titulo {
     position: absolute;
@@ -74,7 +67,7 @@ html{
     font-weight: 500;
     font-size: 87px;
     line-height: 93px;
-    color: #ffffff;
+    color: #5e5e5e;
     padding-left: 170px;
 }
 
@@ -103,12 +96,45 @@ html{
     font-weight: 500;
     font-size: 24px;
     line-height: 31px;
-    color: white;
+    color: #000000;
     padding-left: 170px;
 }
 
-.container img{
-   max-width: 200px;
-   max-height: 200px;
-   top: 100px;
+.divisor {
+    position: absolute;
+    width: 1915px;
+    height: 0px;
+    left: 0px;
+    top: 59px;
+    border: 1px solid #5e5e5e;
+}
+
+.selfie{
+        position: absolute;
+        width: 671px;
+        height: 901px;
+        left: 1010px;
+        top: 179px;
+        background: url(.png);
+        padding-left: 350px;
+}
+
+.fone {
+    position: absolute;
+    width: 671px;
+    height: 901px;
+    left: 1011px;
+    top: 277px;
+    background: url(.png);
+    padding-left: 440px;
+}
+
+.circulo {
+    position: absolute;
+    width: 671px;
+    height: 901px;
+    left: 997px;
+    top: 600px;
+    background: url(.png);
+    padding-left: 440px;
 }
