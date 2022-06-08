@@ -129,12 +129,26 @@ html{
     padding-left: 440px;
 }
 
-.circulo {
+.play5{
+    align-items: center;
     position: absolute;
-    width: 671px;
-    height: 901px;
-    left: 997px;
-    top: 600px;
-    background: url(.png);
-    padding-left: 440px;
+    width: 455px;
+    height: 455px;
+    left: 980px;
+    width: 704.96px;
+    top: 300px;
+    right: 40px;
+    padding-left: 400px;
+}
+
+.bolinha{
+    align-items: center;
+    position: absolute;
+    width: 455px;
+    height: 455px;
+    left: 1060px;
+    width: 704.96px;
+    top: 350px;
+    right: 40px;
+    padding-left: 400px;
 }
